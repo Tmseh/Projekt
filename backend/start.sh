@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Sprawdzenie czy istnieje plik .env
-if [ ! -f .env]; then
+if [ ! -f .env ]; then
     echo "Plik .env nie istnieje. Tworzenie pliku na podstawie szablonu .env.example..."
     if [ -f .env.example ]; then
         cp .env.example .env

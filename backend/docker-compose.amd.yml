@@ -1,0 +1,8 @@
+# docker-compose.amd.yml
+services:
+  ollama-ai:
+    image: ollama/ollama:rocm
+    devices:
+      - /dev/kfd
+      - /dev/dri
+

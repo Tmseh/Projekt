@@ -1,0 +1,5 @@
+# docker-compose.intel.yml
+services:
+  ollama-ai:
+    devices:
+      - /dev/dri

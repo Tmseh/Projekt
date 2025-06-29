@@ -1,0 +1,6 @@
+# docker-compose.nvidia.yml
+services:
+  ollama-ai:
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
